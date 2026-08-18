@@ -1,5 +1,5 @@
 """Required-review Fix Me fixture."""
 
-from .shipping import delivery_window
+from .shipping import DeliveryDelays, TransitConditions, delivery_window
 
-__all__ = ["delivery_window"]
+__all__ = ["DeliveryDelays", "TransitConditions", "delivery_window"]
